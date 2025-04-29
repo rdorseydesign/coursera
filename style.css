@@ -1,21 +1,21 @@
 body{ 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   font-size: 150%;
-  background-color: 125e5d;
+  background-color: #125e5d;
 } 
 
 header{ 
-  background-color: ddf0f0;} 
+  background-color: #ddf0f0;} 
 
 nav{ 
-  background-color: 4e5454;} 
+  background-color: #4e5454;} 
 
 main{
-  background-color: f2f2f2; 
+  background-color: #f2f2f2; 
   font-size: 100%} 
 
 footer{ 
-  background-color: 000000;} 
+  background-color: #000000;} 
 
 li{
   display: inline;
@@ -25,7 +25,7 @@ li{
 h1{ 
   text-align: left;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-  color: 125e5d; } 
+  color: #125e5d; } 
 
 p{
     line-height: 100%; } 
