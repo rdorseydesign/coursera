@@ -20,7 +20,14 @@ footer{
 li{
   display: inline;
   width: 100%;
+  background-color: yellow; 
   } 
+
+ul { 
+  list-style-type: none;
+  display: flex;
+flex-direction: row; 
+justify-content: space-between;} 
 
 h1{ 
   text-align: left;
@@ -29,3 +36,7 @@ h1{
 
 p{
     line-height: 100%; } 
+
+nav a{ 
+  text-decoration: none; }
+
