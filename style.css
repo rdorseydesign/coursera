@@ -47,7 +47,7 @@ nav a{
   background-color: lightgray;
 }
 
-nav image { 
+nav img { 
   width: 10%;
   position: relative;  
   top: 20px;} 
@@ -55,8 +55,16 @@ nav image {
 .grid { 
   display: grid; 
   grid-template-columns: 40% 40%;
-justify-content: center ;} 
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+} 
+
+.grid img {
+  width: 100%;
+}
 
 .flex { 
-  justify-content: center; 
+  display: flex; 
+  justify-content: space-evenly; 
   flex-wrap: wrap; } 
