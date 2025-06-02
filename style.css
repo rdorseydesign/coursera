@@ -55,7 +55,8 @@ nav{
   .grid {
   display: grid;
   width: 100%;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
 }
 
 grid image { 
