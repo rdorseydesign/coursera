@@ -17,11 +17,11 @@ main{
 footer{ 
   background-color: #ceeaf5;} 
 
-/* li{
+li{
   display: inline;
   width: 100%;
   background-color: yellow; 
-  } *\ 
+  }
 
 ul { 
   list-style-type: none;
