@@ -9,7 +9,8 @@ header{
 
 nav{ 
   background-color: #f3f2f2;
-  display: inline-block;} 
+  display: inline-block;
+  width: 80%;} 
 
 main{
   background-color: #f2f2f2; 
@@ -45,3 +46,17 @@ nav a{
   text-transform: uppercase;
   background-color: lightgray;
 }
+
+nav image { 
+  width: 10%;
+  position: relative;  
+  top: 20px;} 
+
+.grid { 
+  display: grid; 
+  grid-template-columns: 40% 40%;
+justify-content: center ;} 
+
+.flex { 
+  justify-content: center; 
+  flex-wrap: wrap; } 
