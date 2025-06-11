@@ -12,7 +12,9 @@ header{
 nav{ 
   background-color: #f5cef2;
   display: inline-block;
-  width: 100%;} 
+  width: 100%;
+margin: 10px; 
+padding: 10px;} 
 
 .main_content{
   position: absolute;
@@ -89,6 +91,14 @@ border: 2px solid black;
 
 }
 
+ul:nth-child(1) a{
+
+border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
 .flex { 
   display: flex; 
   justify-content: space-evenly; 
@@ -99,4 +109,10 @@ img {
   padding: 50px; 
   margin: 20px;
   border-radius: 20px;
+}
+
+a:hover{
+  background-color: purple;
+  color: white;
+  
 }
