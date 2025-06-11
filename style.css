@@ -12,6 +12,22 @@ nav{
   display: inline-block;
   width: 80%;} 
 
+.main_content{
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color:black;
+  color: white; 
+  opacity:0;
+}
+
+.main_content:focus{ 
+  left: 50%; 
+  transform: translateX(-50%);
+  opacity: 1; 
+} 
+
 main{
   background-color: #e8ceff; 
   font-size: 100%} 
