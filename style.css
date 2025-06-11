@@ -14,11 +14,6 @@ nav{
 
 .main_content{
   position: absolute;
-  left: -9999px;
-  z-index: 999;
-  padding: 1em;
-  background-color:black;
-  color: white; 
   opacity:0;
 }
 
@@ -81,7 +76,20 @@ nav img {
   width: 48% 48%;
 }
 
+div:nth-child(odd) img{
+
+border: 2px solid black;
+
+}
+
 .flex { 
   display: flex; 
   justify-content: space-evenly; 
   flex-wrap: wrap; } 
+
+img {
+  border: 3px #95337d; 
+  padding: 50px; 
+  margin: 20px;
+  border-radius: 20px;
+}
