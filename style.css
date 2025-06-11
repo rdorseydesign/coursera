@@ -16,16 +16,6 @@ nav{
 margin: 10px; 
 padding: 10px;} 
 
-.main_content{
-  position: absolute;
-  opacity:0;
-}
-
-.main_content:focus{ 
-  left: 50%; 
-  transform: translateX(-50%);
-  opacity: 1; 
-} 
 
 main{
   background-color: #e8ceff; 
@@ -115,4 +105,22 @@ a:hover{
   background-color: purple;
   color: white;
   
+}
+
+.skip-link {
+  position: absolute;
+  display: inline-block;
+  padding: .375rem .75rem;
+  line-height: 1;
+  font-size: 1.25rem;
+  background-color: rebeccapurple;
+  color: white;
+  /* Ensure the Y position is set to zero and any movement on the transform property */
+  transform: translateY(0);
+  transition: transform 250ms ease-in;
+}
+
+
+.skip-link:not(:focus) {
+  transform: translateY(-2rem);
 }
