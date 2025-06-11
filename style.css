@@ -51,7 +51,8 @@ h1{
   color: #125e5d; } 
 
 p{
-    line-height: 100%; } 
+    line-height: 100%;
+margin: 10px; } 
 
 nav a{ 
   text-decoration: none; }
